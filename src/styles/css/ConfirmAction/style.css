@@ -1,0 +1,29 @@
+.AddedToCart {
+    display: flex;
+    height: 34rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #505050;
+    color: white;
+}
+
+.ok {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 176, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.ok:hover {
+    background-color: #333;
+    color: rgb(0, 176, 0);
+}
+
+
+.AddedToCart_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

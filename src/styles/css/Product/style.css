@@ -1,0 +1,32 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #505050;
+    box-shadow: inset 0 2px 5px rgba(0, 106, 0, 0.5);
+}
+
+.cardBorder{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card {
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.449);
+    width: 14rem;
+    height: 18rem;
+}
+
+.card-redirect img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.card-redirect p {
+    color: whitesmoke;
+}

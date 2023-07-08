@@ -1,0 +1,31 @@
+.admin-buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.admin-buttons button{
+    width: 6rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.suppr {
+    background-color: rgb(255, 43, 43);
+    color: black;
+}
+
+.suppr:hover {
+    background-color: #333;
+    color: rgb(255, 43, 43);
+}
+
+.update {
+    background-color: rgb(0, 176, 0);
+    color: black;
+}
+
+.update:hover{
+    background-color: #333;
+    color: rgb(0, 176, 0);
+}

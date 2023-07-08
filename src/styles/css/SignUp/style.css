@@ -1,0 +1,43 @@
+.registerPage {
+    background-color: #505050;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg {
+    background-color: rgba(0, 0, 0, 0.449);
+    color: whitesmoke;
+    width: 25rem;
+    height: 22rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+}
+
+.register_form input {
+    width: 17rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 15px;
+}
+
+.register_form label {
+    justify-content: right;
+}
+
+.reg button {
+    margin-top: 20px;
+    width: 30%;
+    height: 35px;
+    border-radius: 1rem;
+    background-color: rgb(0, 176, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.reg button:hover {
+    background-color: #484848;
+    color: rgb(0, 176, 0);
+}

@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  .logo h1 {
+    color: rgb(0, 176, 0);
+    height: 50px;
+    margin-left: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+    color: whitesmoke;
+  }
+
+  .buttons p {
+    cursor: pointer;
+    font-size: 90%;
+  }
+
+  .buttons p:hover {
+    color: rgb(0, 176, 0);
+  }
+
+  .logout p {
+    color: rgb(255, 49, 49);
+  }
+
+  .logout p:hover {
+    color: rgb(174, 174, 174);
+  }

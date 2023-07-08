@@ -1,0 +1,42 @@
+.loginPage {
+    background-color: #505050;
+    height: 30rem;
+}
+
+.log {
+    background-color: rgba(0, 0, 0, 0.449);
+    color: whitesmoke;
+    width: 25rem;
+    height: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 1rem;
+}
+
+.login_form input {
+    width: 17rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 15px;
+}
+
+.login_form label {
+    justify-content: right;
+}
+
+.log button {
+    margin-top: 20px;
+    width: 30%;
+    height: 35px;
+    border-radius: 1rem;
+    background-color: rgb(0, 176, 0);
+    color: black;
+    cursor: pointer;
+}
+
+.log button:hover {
+    background-color: #484848;
+    color: rgb(0, 176, 0);
+}
+
