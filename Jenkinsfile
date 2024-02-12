@@ -16,7 +16,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                // Ajoutez ici vos tests de qualité de code si nécessaire
+                // tests
             }
         }
 

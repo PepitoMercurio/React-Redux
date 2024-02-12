@@ -1,12 +1,7 @@
-#Utilisez une image de base appropriée
-From node:docker
+FROM node:docker
 
-#Copiez le code source dans le conteneur
-Copy . index.php
+COPY . index.php
 
-#Définissez le répertoire de travail
 WORKDIR /
 
-#Installez les dépendances
-#Exposez le port nécessaire 
 EXPOSE 3000
