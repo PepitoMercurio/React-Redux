@@ -7,6 +7,7 @@ import store from "../../store";
 export default function HomePage() {
     return (
         <div>
+            <p>aaa</p>
             <Header />
             <Products />
             <Footer />
